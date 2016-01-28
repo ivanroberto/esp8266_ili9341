@@ -18,7 +18,7 @@ PROJECT_DIR ?=/opt/Espressif/projects/esp8266_ili9341
 
 # ===============================================================
 # ESP OPEN SDK path definitions
-ROOT_DIR=/opt/Espressif/esp-open-sdk
+ROOT_DIR ?=/opt/Espressif/esp-open-sdk
 # Base directory for the compiler
 XTENSA_TOOLS_ROOT ?= $(ROOT_DIR)/xtensa-lx106-elf/bin
 # base directory of the ESP8266 SDK package, absolute
